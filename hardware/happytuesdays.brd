@@ -802,7 +802,7 @@ Covered vias can be set in Masks (Limit).
 <elements>
 <element name="IC3" library="NordicSemi" package="QFN48" value="NRF51822" x="20" y="20"/>
 <element name="JTAG1" library="microbuilder_v3" package="2X05_1.27MM_SMT" value="" x="35.75" y="4.25" rot="R270"/>
-<element name="C15" library="microbuilder_v3" package="_0402" value="100nF" x="24.5" y="23.375" rot="R90"/>
+<element name="C13" library="microbuilder_v3" package="_0402" value="100nF" x="24.5" y="23.375" rot="R90"/>
 <element name="C1" library="microbuilder_v3" package="_0402" value="47nF" x="27.75" y="18.875"/>
 <element name="C2" library="microbuilder_v3" package="_0402" value="100nF" x="20.25" y="26" rot="R135"/>
 <element name="L2" library="microbuilder_v3" package="_0402" value="10nH" x="26.375" y="19.875" rot="R270"/>
@@ -812,7 +812,7 @@ Covered vias can be set in Masks (Limit).
 <element name="C5" library="microbuilder_v3" package="_0402" value="2.2pF" x="25.5" y="22.5" rot="R90"/>
 <element name="C6" library="microbuilder_v3" package="_0402" value="1.5pF" x="27" y="25.75"/>
 <element name="C7" library="microbuilder_v3" package="_0402" value="1.5pF" x="27" y="26.75"/>
-<element name="L3" library="microbuilder_v3" package="_0402" value="3.3nF" x="25.5" y="25.25" rot="R90"/>
+<element name="L3" library="microbuilder_v3" package="_0402" value="3.3nH" x="25.5" y="25.25" rot="R90"/>
 <element name="L4" library="microbuilder_v3" package="_0402" value="10µH" x="13.75" y="22.75"/>
 <element name="L5" library="microbuilder_v3" package="_0402" value="15nH" x="15.5" y="22.25" rot="R270"/>
 <element name="C8" library="microbuilder_v3" package="_0402" value="1.0µF" x="12.75" y="23.75" rot="R180"/>
@@ -852,11 +852,11 @@ Covered vias can be set in Masks (Limit).
 <element name="C11" library="microbuilder_v3" package="_0402" value="12pF" x="21.75" y="25.75" rot="R135"/>
 <element name="C12" library="microbuilder_v3" package="_0402" value="12pF" x="23.25" y="29.25" rot="R135"/>
 <element name="IC4" library="tlv700" package="SC70-5L" value="TLV70033DCK" x="14" y="14"/>
-<element name="C14" library="resistor" package="C0603K" value="1µF" x="13" y="17.5" rot="R90"/>
+<element name="C16" library="resistor" package="C0603K" value="1µF" x="13" y="17.5" rot="R90"/>
 <element name="IC5" library="SparkFun" package="SOT23-5" value="MAX1555" x="22" y="7" rot="R270"/>
 <element name="CN1" library="microbuilder" package="JSTPH2" value="" x="15.5" y="4" rot="R180"/>
-<element name="C19" library="resistor" package="C0603K" value="1µF" x="15.5" y="11"/>
-<element name="C20" library="resistor" package="C0603K" value="1µF" x="27" y="7.5"/>
+<element name="C15" library="resistor" package="C0603K" value="1µF" x="15.5" y="11"/>
+<element name="C14" library="resistor" package="C0603K" value="1µF" x="27" y="7.5"/>
 <element name="LED1" library="led" package="CHIPLED_0603" value="" x="21.25" y="2"/>
 <element name="X1" library="SparkFun" package="USB-MICROB" value="USB-MICROB" x="27" y="2.5"/>
 <element name="R2" library="microbuilder_v3" package="_0402" value="1kΩ" x="21.25" y="4.5" rot="R270"/>
@@ -870,7 +870,7 @@ Covered vias can be set in Masks (Limit).
 <contactref element="JTAG1" pad="5"/>
 <contactref element="IC3" pad="34"/>
 <contactref element="IC3" pad="33"/>
-<contactref element="C15" pad="2"/>
+<contactref element="C13" pad="2"/>
 <contactref element="C1" pad="2"/>
 <contactref element="C2" pad="2"/>
 <contactref element="IC3" pad="13"/>
@@ -937,10 +937,10 @@ Covered vias can be set in Masks (Limit).
 <via x="34.25" y="17" extent="1-16" drill="0.3"/>
 <via x="34.25" y="15.125" extent="1-16" drill="0.3"/>
 <contactref element="IC4" pad="2"/>
-<contactref element="C14" pad="2"/>
+<contactref element="C16" pad="2"/>
 <contactref element="IC5" pad="2"/>
-<contactref element="C19" pad="2"/>
-<contactref element="C20" pad="2"/>
+<contactref element="C15" pad="2"/>
+<contactref element="C14" pad="2"/>
 <contactref element="CN1" pad="1"/>
 <contactref element="X1" pad="GND"/>
 <via x="16.5" y="4" extent="1-16" drill="0.3"/>
@@ -983,7 +983,7 @@ Covered vias can be set in Masks (Limit).
 <signal name="AVDD">
 <contactref element="IC3" pad="35"/>
 <contactref element="IC3" pad="36"/>
-<contactref element="C15" pad="1"/>
+<contactref element="C13" pad="1"/>
 <contactref element="L4" pad="1"/>
 <contactref element="C8" pad="1"/>
 <via x="13.25" y="21.75" extent="1-16" drill="0.3"/>
@@ -1026,7 +1026,7 @@ Covered vias can be set in Masks (Limit).
 <contactref element="IC2" pad="16"/>
 <contactref element="IC1" pad="16"/>
 <contactref element="IC4" pad="5"/>
-<contactref element="C14" pad="1"/>
+<contactref element="C16" pad="1"/>
 <wire x1="13.35" y1="14.85" x2="13.35" y2="16.275" width="0.4" layer="1"/>
 <wire x1="13.35" y1="16.275" x2="13" y2="16.625" width="0.4" layer="1"/>
 <wire x1="9.25" y1="0.75" x2="11.5" y2="0.75" width="0.4" layer="16"/>
@@ -1661,7 +1661,7 @@ Covered vias can be set in Masks (Limit).
 </signal>
 <signal name="5.0V">
 <contactref element="IC5" pad="4"/>
-<contactref element="C20" pad="1"/>
+<contactref element="C14" pad="1"/>
 <contactref element="X1" pad="VBUS"/>
 <wire x1="26.125" y1="7.5" x2="25.7" y2="7.075" width="0.4" layer="1"/>
 <wire x1="25.7" y1="7.075" x2="25.7" y2="6" width="0.4" layer="1"/>
@@ -1670,7 +1670,7 @@ Covered vias can be set in Masks (Limit).
 <wire x1="23.3501" y1="6" x2="25.7" y2="6" width="0.4" layer="1"/>
 </signal>
 <signal name="BATT">
-<contactref element="C19" pad="1"/>
+<contactref element="C15" pad="1"/>
 <contactref element="IC5" pad="5"/>
 <contactref element="CN1" pad="2"/>
 <contactref element="LED1" pad="A"/>

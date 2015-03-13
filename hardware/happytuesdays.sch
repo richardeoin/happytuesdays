@@ -7731,7 +7731,7 @@ Source: www.kingbright.com</description>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$2" library="microbuilder_v3" deviceset="AVDD" device=""/>
 <part name="U$3" library="microbuilder_v3" deviceset="AVDD" device=""/>
-<part name="C15" library="microbuilder_v3" deviceset="CAP_CERAMIC" device="_0402" value="100nF"/>
+<part name="C13" library="microbuilder_v3" deviceset="CAP_CERAMIC" device="_0402" value="100nF"/>
 <part name="C1" library="microbuilder_v3" deviceset="CAP_CERAMIC" device="_0402" value="47nF"/>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
 <part name="C2" library="microbuilder_v3" deviceset="CAP_CERAMIC" device="_0402" value="100nF"/>
@@ -7747,7 +7747,7 @@ Source: www.kingbright.com</description>
 <part name="C5" library="microbuilder_v3" deviceset="CAP_CERAMIC" device="_0402" value="2.2pF"/>
 <part name="C6" library="microbuilder_v3" deviceset="CAP_CERAMIC" device="_0402" value="1.5pF"/>
 <part name="C7" library="microbuilder_v3" deviceset="CAP_CERAMIC" device="_0402" value="1.5pF"/>
-<part name="L3" library="microbuilder_v3" deviceset="INDUCTOR" device="_0402" value="3.3nF"/>
+<part name="L3" library="microbuilder_v3" deviceset="INDUCTOR" device="_0402" value="3.3nH"/>
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun" deviceset="GND" device=""/>
@@ -7783,13 +7783,13 @@ Source: www.kingbright.com</description>
 <part name="GND18" library="SparkFun" deviceset="GND" device=""/>
 <part name="IC4" library="tlv700" deviceset="TLV700" device="DCK" value="TLV70033DCK"/>
 <part name="U$22" library="microbuilder" deviceset="GND" device=""/>
-<part name="C14" library="resistor" deviceset="C-EU" device="C0603K" value="1µF"/>
+<part name="C16" library="resistor" deviceset="C-EU" device="C0603K" value="1µF"/>
 <part name="U$25" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$31" library="microbuilder_v3" deviceset="3.3V" device=""/>
 <part name="IC5" library="SparkFun" deviceset="MAX1555" device=""/>
 <part name="CN1" library="microbuilder" deviceset="JST_2PIN" device=""/>
-<part name="C19" library="resistor" deviceset="C-EU" device="C0603K" value="1µF"/>
-<part name="C20" library="resistor" deviceset="C-EU" device="C0603K" value="1µF"/>
+<part name="C15" library="resistor" deviceset="C-EU" device="C0603K" value="1µF"/>
+<part name="C14" library="resistor" deviceset="C-EU" device="C0603K" value="1µF"/>
 <part name="U$32" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$33" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$34" library="microbuilder" deviceset="GND" device=""/>
@@ -7820,7 +7820,7 @@ Source: www.kingbright.com</description>
 <instance part="GND2" gate="1" x="132.08" y="127" rot="R90"/>
 <instance part="U$2" gate="G$1" x="129.54" y="139.7"/>
 <instance part="U$3" gate="G$1" x="10.16" y="142.24"/>
-<instance part="C15" gate="G$1" x="124.46" y="129.54"/>
+<instance part="C13" gate="G$1" x="124.46" y="129.54"/>
 <instance part="C1" gate="G$1" x="129.54" y="104.14"/>
 <instance part="GND3" gate="1" x="129.54" y="99.06"/>
 <instance part="C2" gate="G$1" x="129.54" y="152.4" rot="R90"/>
@@ -7886,13 +7886,13 @@ Source: www.kingbright.com</description>
 <instance part="GND18" gate="1" x="93.98" y="180.34" rot="R180"/>
 <instance part="IC4" gate="G$1" x="215.9" y="58.42"/>
 <instance part="U$22" gate="G$1" x="223.52" y="43.18"/>
-<instance part="C14" gate="G$1" x="241.3" y="53.34"/>
+<instance part="C16" gate="G$1" x="241.3" y="53.34"/>
 <instance part="U$25" gate="G$1" x="241.3" y="43.18"/>
 <instance part="U$31" gate="G$1" x="241.3" y="71.12"/>
 <instance part="IC5" gate="G$1" x="170.18" y="60.96"/>
 <instance part="CN1" gate="G$1" x="205.74" y="71.12" rot="R90"/>
-<instance part="C19" gate="G$1" x="198.12" y="53.34"/>
-<instance part="C20" gate="G$1" x="190.5" y="53.34"/>
+<instance part="C15" gate="G$1" x="198.12" y="53.34"/>
+<instance part="C14" gate="G$1" x="190.5" y="53.34"/>
 <instance part="U$32" gate="G$1" x="190.5" y="43.18"/>
 <instance part="U$33" gate="G$1" x="198.12" y="43.18"/>
 <instance part="U$34" gate="G$1" x="203.2" y="43.18"/>
@@ -7935,7 +7935,7 @@ Source: www.kingbright.com</description>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="121.92" y1="127" x2="124.46" y2="127" width="0.1524" layer="91"/>
 <junction x="121.92" y="127"/>
-<pinref part="C15" gate="G$1" pin="P$2"/>
+<pinref part="C13" gate="G$1" pin="P$2"/>
 <junction x="124.46" y="127"/>
 <wire x1="124.46" y1="127" x2="129.54" y2="127" width="0.1524" layer="91"/>
 </segment>
@@ -8019,7 +8019,7 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="U$25" gate="G$1" pin="GND"/>
-<pinref part="C14" gate="G$1" pin="2"/>
+<pinref part="C16" gate="G$1" pin="2"/>
 <wire x1="241.3" y1="45.72" x2="241.3" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -8030,12 +8030,12 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <wire x1="198.12" y1="48.26" x2="198.12" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="C19" gate="G$1" pin="2"/>
+<pinref part="C15" gate="G$1" pin="2"/>
 <pinref part="U$33" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="190.5" y1="48.26" x2="190.5" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="C20" gate="G$1" pin="2"/>
+<pinref part="C14" gate="G$1" pin="2"/>
 <pinref part="U$32" gate="G$1" pin="GND"/>
 </segment>
 <segment>
@@ -8084,7 +8084,7 @@ Source: www.kingbright.com</description>
 <wire x1="124.46" y1="134.62" x2="129.54" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="134.62" x2="129.54" y2="137.16" width="0.1524" layer="91"/>
 <junction x="121.92" y="134.62"/>
-<pinref part="C15" gate="G$1" pin="P$1"/>
+<pinref part="C13" gate="G$1" pin="P$1"/>
 <junction x="124.46" y="134.62"/>
 </segment>
 <segment>
@@ -8150,7 +8150,7 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="OUT"/>
-<pinref part="C14" gate="G$1" pin="1"/>
+<pinref part="C16" gate="G$1" pin="1"/>
 <wire x1="236.22" y1="63.5" x2="241.3" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="63.5" x2="241.3" y2="55.88" width="0.1524" layer="91"/>
 <junction x="241.3" y="63.5"/>
@@ -8803,7 +8803,7 @@ Source: www.kingbright.com</description>
 <wire x1="190.5" y1="58.42" x2="190.5" y2="55.88" width="0.1524" layer="91"/>
 <junction x="190.5" y="58.42"/>
 <pinref part="IC5" gate="G$1" pin="DC"/>
-<pinref part="C20" gate="G$1" pin="1"/>
+<pinref part="C14" gate="G$1" pin="1"/>
 <pinref part="U$36" gate="G$1" pin="5.0V"/>
 </segment>
 <segment>
@@ -8823,7 +8823,7 @@ Source: www.kingbright.com</description>
 <junction x="198.12" y="63.5"/>
 <junction x="205.74" y="63.5"/>
 <label x="182.88" y="63.5" size="1.778" layer="95"/>
-<pinref part="C19" gate="G$1" pin="1"/>
+<pinref part="C15" gate="G$1" pin="1"/>
 <pinref part="IC5" gate="G$1" pin="BATT"/>
 <pinref part="CN1" gate="G$1" pin="2"/>
 <pinref part="IC4" gate="G$1" pin="IN"/>
